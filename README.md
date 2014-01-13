@@ -3,12 +3,14 @@ fftw_android
 
 A sample about how to compile fftw3 to library and use it in android.
 
+Compare between different dft_2d implement efforts is shown in below table.
+
 <table border="1" cellpadding="0" cellspacing="0" width="1115" style="border-collapse:
  collapse;table-layout:fixed;width:836pt">
- <colgroup><col width="323" style="mso-width-source:userset;mso-width-alt:10336;width:242pt">
+ <colgroup><col width="360" style="mso-width-source:userset;mso-width-alt:10336;width:242pt">
  <col width="72" span="11" style="width:54pt">
  </colgroup><tbody><tr height="18" style="height:13.5pt">
-  <td height="18" class="xl65" width="323" style="height:13.5pt;width:242pt">Method</td>
+  <td height="18" class="xl65" width="360" style="height:13.5pt;width:242pt">Method</td>
   <td class="xl71" align="right" width="72" style="border-left:none;width:54pt">1</td>
   <td class="xl71" align="right" width="72" style="border-left:none;width:54pt">2</td>
   <td class="xl71" align="right" width="72" style="border-left:none;width:54pt">3</td>
@@ -110,7 +112,7 @@ A sample about how to compile fftw3 to library and use it in android.
  </tr>
  <tr height="18" style="height:13.5pt">
   <td height="18" style="height:13.5pt">Test Phone</td>
-  <td colspan="11" style="mso-ignore:colspan">Nexus 4(msm8064<span style="mso-spacerun:yes">&nbsp; </span>1.5GHz x 4)</td>
+  <td colspan="11" style="mso-ignore:colspan">Google Nexus 4(ARQ8064<span style="mso-spacerun:yes">&nbsp; </span>1.5GHz x 4)</td>
  </tr>
  <tr height="18" style="height:13.5pt">
   <td height="18" style="height:13.5pt">Test Data</td>
@@ -118,7 +120,7 @@ A sample about how to compile fftw3 to library and use it in android.
  </tr>
  <!--[if supportMisalignedColumns]-->
  <tr height="0" style="display:none">
-  <td width="323" style="width:242pt"></td>
+  <td width="360" style="width:242pt"></td>
   <td width="72" style="width:54pt"></td>
   <td width="72" style="width:54pt"></td>
   <td width="72" style="width:54pt"></td>
