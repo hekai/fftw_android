@@ -12,7 +12,7 @@ cd $SRC_DIR
 
 export PATH="$NDK_DIR/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/:$PATH"
 export SYS_ROOT="$NDK_DIR/platforms/android-8/arch-arm/"
-export CC="arm-linux-androideabi-gcc --sysroot=$SYS_ROOT"
+export CC="arm-linux-androideabi-gcc --sysroot=$SYS_ROOT -march=armv7-a -mfloat-abi=softfp"
 export LD="arm-linux-androideabi-ld"
 export AR="arm-linux-androideabi-ar"
 export RANLIB="arm-linux-androideabi-ranlib"
@@ -26,6 +26,7 @@ mkdir -p $INSTALL_DIR
 	--enable-float \
 	--enable-threads \
 #	--with-combined-threads \
+	--enable-neon
 
 make
 make install
