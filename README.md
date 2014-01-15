@@ -112,7 +112,7 @@ Compare between different dft_2d implement efforts is shown in below table.
  </tr>
  <tr height="18" style="height:13.5pt">
   <td height="18" style="height:13.5pt">Test Phone</td>
-  <td colspan="11" style="mso-ignore:colspan">Google Nexus 4(ARQ8064<span style="mso-spacerun:yes">&nbsp; </span>1.5GHz x 4)</td>
+  <td colspan="11" style="mso-ignore:colspan">Google Nexus 4(APQ8064<span style="mso-spacerun:yes">&nbsp; </span>1.5GHz x 4)</td>
  </tr>
  <tr height="18" style="height:13.5pt">
   <td height="18" style="height:13.5pt">Test Data</td>
